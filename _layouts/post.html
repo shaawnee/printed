@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+    {% if page.header %}
+        {% include header_post_image.html %}
+    {% else %}
+        {% include header_post.html %}
+    {% endif %}
+        <section class="mw7 center martel mtxl mtxl-m mtl-ms mbxl mbxl-m mbl-ms plm-m plm-ms prm-m prm-ms post">
+            <p class="f5 thin gray">{{ page.date | date: "%-d %B %Y" }}</p>
+            <h1 class="f1 heavy black mbm">{{ page.title }}</h1>
+            {{ content }}
+        {% if site.disqus %}
+            {% include disqus.html %}
+        {% endif %}
+        </section>
+        {% include footer.html %}
+    {% if site.google_analytics_id %}
+        {% include google_analytics.html %}
+    {% endif %}
+    </body>
+</html>

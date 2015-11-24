@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section class="mw7 center martel mbxxl mbxl-m mbl-ms">
+    {% for post in site.posts %}
+    <div class="mtxxl mtxl-m mtl-ms plm-m plm-ms prm-m prm-ms">
+        <p class="f5 thin gray">{{ post.date | date: "%-d %B %Y" }}</p>
+        <a class="f1 heavy black hover-gray" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        <div class="mtm post">{{ post.excerpt }}</div>
+    </div>
+    {% endfor %}
+</section>

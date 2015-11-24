@@ -1,0 +1,21 @@
+/*
+
+   FLOATS
+
+*/
+
+.fl { float: left;  display: inline; }
+.fr { float: right; display: inline; }
+.fn { float: none; }
+
+@media screen and (max-width: 30em) {
+  .fl-ms { float: left; display: inline; }
+  .fr-ms { float: right; display: inline; }
+  .fn-ms { float: none !important; }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .fl-m { float: left; display: inline; }
+  .fr-m { float: right; display: inline; }
+  .fn-m { float: none; }
+}

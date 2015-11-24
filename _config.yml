@@ -1,0 +1,58 @@
+# Your site's title
+# ===============
+name: Printed
+
+
+# The description of your site
+# ===============
+description: Minimal and responsive Jekyll theme
+
+
+# Your name
+# ===============
+author: Christian Schellenberg
+
+
+# Your site's url
+# ===============
+url: http://chrs.cc/printed
+
+
+# Social networks (just the username)
+# ===============
+twitter: chrsbrg
+facebook:
+instagram: chrsbrg
+soundcloud: chrsbrg
+dribbble: chrsbrg
+github: chrsbrg
+
+
+# Disqus Username
+# ===============
+disqus: chrsbrg
+
+
+# Google Anlytics ID
+# ===============
+google_analytics_id: UA-44631862-12
+
+
+# Permalink style
+# ===============
+permalink: pretty
+
+
+# Markdown
+# ===============
+markdown: kramdown
+
+
+# Post Excerpt Separator
+# ===============
+excerpt_separator: <br />
+
+
+# Excluded files
+# ===============
+exclude: [README.md, node_modules, LICENSE, package.json, gulpfile.js, Rakefile, sass]
